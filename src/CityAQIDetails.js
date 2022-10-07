@@ -32,7 +32,8 @@ const CityAQIDetails = props => {
             obj['key'] = key;
             obj['value'] = item[1].v;
             ret.push(obj);
-        });
+            return 0;
+    });
         return ret;
     }
 
